@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCAE5C952B14E6640060BEE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE5C942B14E6640060BEE6 /* AppDelegate.swift */; };
+		BCAE5C972B14E6640060BEE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE5C962B14E6640060BEE6 /* SceneDelegate.swift */; };
+		BCAE5C992B14E6640060BEE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE5C982B14E6640060BEE6 /* ViewController.swift */; };
+		BCAE5C9C2B14E6640060BEE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAE5C9A2B14E6640060BEE6 /* Main.storyboard */; };
+		BCAE5C9E2B14E6650060BEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAE5C9D2B14E6650060BEE6 /* Assets.xcassets */; };
+		BCAE5CA12B14E6650060BEE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAE5C9F2B14E6650060BEE6 /* LaunchScreen.storyboard */; };
+		BCAE5CAC2B14E6650060BEE6 /* Truss_Calc_PLDSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE5CAB2B14E6650060BEE6 /* Truss_Calc_PLDSTests.swift */; };
+		BCAE5CB62B14E6650060BEE6 /* Truss_Calc_PLDSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE5CB52B14E6650060BEE6 /* Truss_Calc_PLDSUITests.swift */; };
+		BCAE5CB82B14E6650060BEE6 /* Truss_Calc_PLDSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE5CB72B14E6650060BEE6 /* Truss_Calc_PLDSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAE5CA82B14E6650060BEE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE5C892B14E6640060BEE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE5C902B14E6640060BEE6;
+			remoteInfo = "Truss Calc PLDS";
+		};
+		BCAE5CB22B14E6650060BEE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE5C892B14E6640060BEE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE5C902B14E6640060BEE6;
+			remoteInfo = "Truss Calc PLDS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCAE5C912B14E6640060BEE6 /* Truss Calc PLDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truss Calc PLDS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE5C942B14E6640060BEE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCAE5C962B14E6640060BEE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCAE5C982B14E6640060BEE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCAE5C9B2B14E6640060BEE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCAE5C9D2B14E6650060BEE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCAE5CA02B14E6650060BEE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCAE5CA22B14E6650060BEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAE5CA72B14E6650060BEE6 /* Truss Calc PLDSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truss Calc PLDSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE5CAB2B14E6650060BEE6 /* Truss_Calc_PLDSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truss_Calc_PLDSTests.swift; sourceTree = "<group>"; };
+		BCAE5CB12B14E6650060BEE6 /* Truss Calc PLDSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truss Calc PLDSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE5CB52B14E6650060BEE6 /* Truss_Calc_PLDSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truss_Calc_PLDSUITests.swift; sourceTree = "<group>"; };
+		BCAE5CB72B14E6650060BEE6 /* Truss_Calc_PLDSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truss_Calc_PLDSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAE5C8E2B14E6640060BEE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE5CA42B14E6650060BEE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE5CAE2B14E6650060BEE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAE5C882B14E6640060BEE6 = {
+			isa = PBXGroup;
+			children = (
+				BCAE5C932B14E6640060BEE6 /* Truss Calc PLDS */,
+				BCAE5CAA2B14E6650060BEE6 /* Truss Calc PLDSTests */,
+				BCAE5CB42B14E6650060BEE6 /* Truss Calc PLDSUITests */,
+				BCAE5C922B14E6640060BEE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAE5C922B14E6640060BEE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE5C912B14E6640060BEE6 /* Truss Calc PLDS.app */,
+				BCAE5CA72B14E6650060BEE6 /* Truss Calc PLDSTests.xctest */,
+				BCAE5CB12B14E6650060BEE6 /* Truss Calc PLDSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAE5C932B14E6640060BEE6 /* Truss Calc PLDS */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE5C942B14E6640060BEE6 /* AppDelegate.swift */,
+				BCAE5C962B14E6640060BEE6 /* SceneDelegate.swift */,
+				BCAE5C982B14E6640060BEE6 /* ViewController.swift */,
+				BCAE5C9A2B14E6640060BEE6 /* Main.storyboard */,
+				BCAE5C9D2B14E6650060BEE6 /* Assets.xcassets */,
+				BCAE5C9F2B14E6650060BEE6 /* LaunchScreen.storyboard */,
+				BCAE5CA22B14E6650060BEE6 /* Info.plist */,
+			);
+			path = "Truss Calc PLDS";
+			sourceTree = "<group>";
+		};
+		BCAE5CAA2B14E6650060BEE6 /* Truss Calc PLDSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE5CAB2B14E6650060BEE6 /* Truss_Calc_PLDSTests.swift */,
+			);
+			path = "Truss Calc PLDSTests";
+			sourceTree = "<group>";
+		};
+		BCAE5CB42B14E6650060BEE6 /* Truss Calc PLDSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE5CB52B14E6650060BEE6 /* Truss_Calc_PLDSUITests.swift */,
+				BCAE5CB72B14E6650060BEE6 /* Truss_Calc_PLDSUITestsLaunchTests.swift */,
+			);
+			path = "Truss Calc PLDSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAE5C902B14E6640060BEE6 /* Truss Calc PLDS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE5CBB2B14E6650060BEE6 /* Build configuration list for PBXNativeTarget "Truss Calc PLDS" */;
+			buildPhases = (
+				BCAE5C8D2B14E6640060BEE6 /* Sources */,
+				BCAE5C8E2B14E6640060BEE6 /* Frameworks */,
+				BCAE5C8F2B14E6640060BEE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Truss Calc PLDS";
+			productName = "Truss Calc PLDS";
+			productReference = BCAE5C912B14E6640060BEE6 /* Truss Calc PLDS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAE5CA62B14E6650060BEE6 /* Truss Calc PLDSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE5CBE2B14E6650060BEE6 /* Build configuration list for PBXNativeTarget "Truss Calc PLDSTests" */;
+			buildPhases = (
+				BCAE5CA32B14E6650060BEE6 /* Sources */,
+				BCAE5CA42B14E6650060BEE6 /* Frameworks */,
+				BCAE5CA52B14E6650060BEE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAE5CA92B14E6650060BEE6 /* PBXTargetDependency */,
+			);
+			name = "Truss Calc PLDSTests";
+			productName = "Truss Calc PLDSTests";
+			productReference = BCAE5CA72B14E6650060BEE6 /* Truss Calc PLDSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCAE5CB02B14E6650060BEE6 /* Truss Calc PLDSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE5CC12B14E6650060BEE6 /* Build configuration list for PBXNativeTarget "Truss Calc PLDSUITests" */;
+			buildPhases = (
+				BCAE5CAD2B14E6650060BEE6 /* Sources */,
+				BCAE5CAE2B14E6650060BEE6 /* Frameworks */,
+				BCAE5CAF2B14E6650060BEE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAE5CB32B14E6650060BEE6 /* PBXTargetDependency */,
+			);
+			name = "Truss Calc PLDSUITests";
+			productName = "Truss Calc PLDSUITests";
+			productReference = BCAE5CB12B14E6650060BEE6 /* Truss Calc PLDSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAE5C892B14E6640060BEE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BCAE5C902B14E6640060BEE6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					BCAE5CA62B14E6650060BEE6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BCAE5C902B14E6640060BEE6;
+					};
+					BCAE5CB02B14E6650060BEE6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BCAE5C902B14E6640060BEE6;
+					};
+				};
+			};
+			buildConfigurationList = BCAE5C8C2B14E6640060BEE6 /* Build configuration list for PBXProject "Truss Calc PLDS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAE5C882B14E6640060BEE6;
+			productRefGroup = BCAE5C922B14E6640060BEE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAE5C902B14E6640060BEE6 /* Truss Calc PLDS */,
+				BCAE5CA62B14E6650060BEE6 /* Truss Calc PLDSTests */,
+				BCAE5CB02B14E6650060BEE6 /* Truss Calc PLDSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAE5C8F2B14E6640060BEE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE5CA12B14E6650060BEE6 /* LaunchScreen.storyboard in Resources */,
+				BCAE5C9E2B14E6650060BEE6 /* Assets.xcassets in Resources */,
+				BCAE5C9C2B14E6640060BEE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE5CA52B14E6650060BEE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE5CAF2B14E6650060BEE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAE5C8D2B14E6640060BEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE5C992B14E6640060BEE6 /* ViewController.swift in Sources */,
+				BCAE5C952B14E6640060BEE6 /* AppDelegate.swift in Sources */,
+				BCAE5C972B14E6640060BEE6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE5CA32B14E6650060BEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE5CAC2B14E6650060BEE6 /* Truss_Calc_PLDSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE5CAD2B14E6650060BEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE5CB82B14E6650060BEE6 /* Truss_Calc_PLDSUITestsLaunchTests.swift in Sources */,
+				BCAE5CB62B14E6650060BEE6 /* Truss_Calc_PLDSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAE5CA92B14E6650060BEE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE5C902B14E6640060BEE6 /* Truss Calc PLDS */;
+			targetProxy = BCAE5CA82B14E6650060BEE6 /* PBXContainerItemProxy */;
+		};
+		BCAE5CB32B14E6650060BEE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE5C902B14E6640060BEE6 /* Truss Calc PLDS */;
+			targetProxy = BCAE5CB22B14E6650060BEE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCAE5C9A2B14E6640060BEE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAE5C9B2B14E6640060BEE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCAE5C9F2B14E6650060BEE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAE5CA02B14E6650060BEE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCAE5CB92B14E6650060BEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCAE5CBA2B14E6650060BEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAE5CBC2B14E6650060BEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XUH883Z28T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Truss Calc PLDS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Plds.Truss-Calc-PLDS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCAE5CBD2B14E6650060BEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XUH883Z28T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Truss Calc PLDS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Plds.Truss-Calc-PLDS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCAE5CBF2B14E6650060BEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XUH883Z28T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Plds.Truss-Calc-PLDSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truss Calc PLDS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Truss Calc PLDS";
+			};
+			name = Debug;
+		};
+		BCAE5CC02B14E6650060BEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XUH883Z28T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Plds.Truss-Calc-PLDSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truss Calc PLDS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Truss Calc PLDS";
+			};
+			name = Release;
+		};
+		BCAE5CC22B14E6650060BEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XUH883Z28T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Plds.Truss-Calc-PLDSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Truss Calc PLDS";
+			};
+			name = Debug;
+		};
+		BCAE5CC32B14E6650060BEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XUH883Z28T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Plds.Truss-Calc-PLDSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Truss Calc PLDS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAE5C8C2B14E6640060BEE6 /* Build configuration list for PBXProject "Truss Calc PLDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE5CB92B14E6650060BEE6 /* Debug */,
+				BCAE5CBA2B14E6650060BEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE5CBB2B14E6650060BEE6 /* Build configuration list for PBXNativeTarget "Truss Calc PLDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE5CBC2B14E6650060BEE6 /* Debug */,
+				BCAE5CBD2B14E6650060BEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE5CBE2B14E6650060BEE6 /* Build configuration list for PBXNativeTarget "Truss Calc PLDSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE5CBF2B14E6650060BEE6 /* Debug */,
+				BCAE5CC02B14E6650060BEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE5CC12B14E6650060BEE6 /* Build configuration list for PBXNativeTarget "Truss Calc PLDSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE5CC22B14E6650060BEE6 /* Debug */,
+				BCAE5CC32B14E6650060BEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAE5C892B14E6640060BEE6 /* Project object */;
+}
