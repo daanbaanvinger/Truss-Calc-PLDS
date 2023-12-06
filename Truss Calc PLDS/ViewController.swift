@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftUI
+import CallKit
 
 extension UIApplication {
     
@@ -45,9 +46,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var angleFD3190TextField: UITextField!
     @IBOutlet weak var angleFD31KruisTextField: UITextField!
     @IBOutlet weak var angleFD32ShiftTextField: UITextField!
-  
     
-   
+    
+    
+    
+    
+    //tweede scherm
+    
+    //tweedescherm
+    
     //reset
     
     @IBAction func resetButtonPressed(_ sender: UIButton) {
@@ -102,7 +109,7 @@ class ViewController: UIViewController {
         
     }
     
-
+    
     
     @objc func calculateButtonPressed() {
         guard let trussLengthText = trussLengthTextField.text, let trussLength = Int(trussLengthText),
@@ -184,7 +191,6 @@ class ViewController: UIViewController {
         
     }
 }
-
-
-//timer
-
+    
+    
+   

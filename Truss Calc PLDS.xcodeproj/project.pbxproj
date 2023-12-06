@@ -16,6 +16,7 @@
 		BCAE5CAC2B14E6650060BEE6 /* Truss_Calc_PLDSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE5CAB2B14E6650060BEE6 /* Truss_Calc_PLDSTests.swift */; };
 		BCAE5CB62B14E6650060BEE6 /* Truss_Calc_PLDSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE5CB52B14E6650060BEE6 /* Truss_Calc_PLDSUITests.swift */; };
 		BCAE5CB82B14E6650060BEE6 /* Truss_Calc_PLDSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE5CB72B14E6650060BEE6 /* Truss_Calc_PLDSUITestsLaunchTests.swift */; };
+		BCB4F75F2B1A306C00720E5C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4F75E2B1A306C00720E5C /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BCB4F7A22B20829D00720E5C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		BCAE5C912B14E6640060BEE6 /* Truss Calc PLDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truss Calc PLDS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAE5C942B14E6640060BEE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,7 @@
 		BCAE5CB12B14E6650060BEE6 /* Truss Calc PLDSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truss Calc PLDSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAE5CB52B14E6650060BEE6 /* Truss_Calc_PLDSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truss_Calc_PLDSUITests.swift; sourceTree = "<group>"; };
 		BCAE5CB72B14E6650060BEE6 /* Truss_Calc_PLDSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truss_Calc_PLDSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCB4F75E2B1A306C00720E5C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +117,7 @@
 				BCAE5C942B14E6640060BEE6 /* AppDelegate.swift */,
 				BCAE5C962B14E6640060BEE6 /* SceneDelegate.swift */,
 				BCAE5C982B14E6640060BEE6 /* ViewController.swift */,
+				BCB4F75E2B1A306C00720E5C /* Contact.swift */,
 				BCAE5C9A2B14E6640060BEE6 /* Main.storyboard */,
 				BCAE5C9D2B14E6650060BEE6 /* Assets.xcassets */,
 				BCAE5C9F2B14E6650060BEE6 /* LaunchScreen.storyboard */,
@@ -137,6 +153,7 @@
 				BCAE5C8D2B14E6640060BEE6 /* Sources */,
 				BCAE5C8E2B14E6640060BEE6 /* Frameworks */,
 				BCAE5C8F2B14E6640060BEE6 /* Resources */,
+				BCB4F7A22B20829D00720E5C /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -258,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB4F75F2B1A306C00720E5C /* Contact.swift in Sources */,
 				BCAE5C992B14E6640060BEE6 /* ViewController.swift in Sources */,
 				BCAE5C952B14E6640060BEE6 /* AppDelegate.swift in Sources */,
 				BCAE5C972B14E6640060BEE6 /* SceneDelegate.swift in Sources */,
